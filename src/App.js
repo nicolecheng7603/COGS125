@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is a simple React portfolio page.</p>
+        <h1>Nicole Cheng's Portfolio</h1>
+        <p>Welcome!</p>
       </header>
       <main>
         <section>
@@ -17,9 +17,9 @@ function App() {
         <section>
           <h2>Projects</h2>
           <ul>
-            <li>Coursework</li>
-            <li>Task Manager App</li>
-            <li>AI chatbot using OpenAI API</li>
+            <li>COGS125</li>
+            <li>DSGN118</li>
+            <li>DSGN100</li>
           </ul>
         </section>
         <section>
