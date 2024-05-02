@@ -6,8 +6,8 @@ function Nav() {
     <nav>
         <h3>Logo</h3>
         <ul>
-            <li>App</li>
             <li>Projects</li>
+            <li>Contact</li>
         </ul>
     </nav>
   );
