@@ -18,13 +18,16 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/projects/:id" element={<Projects />} /> {/* This line */}
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<Projects />} /> {/* New Projects Page */}
+            <Route path="/contact" element={<Contact />} /> {/* New Contact Page */}
           </Routes>
         </main>
         <footer>
-          <p>Thank you for visiting my portfolio!</p>
+          <p>
+            I am an undergraduate student at UCSD, majoring in Cognitive Science
+            with a specialization in Design and Interaction, minoring in Speculative
+            Design. I am interested in the field of Design and Media. 
+            Thank you for visiting my portfolio!</p>
         </footer>
       </div>
     </Router>
