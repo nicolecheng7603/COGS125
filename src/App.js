@@ -1,37 +1,34 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Nav from './Nav';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Nicole Cheng's Portfolio</h1>
-        <p>Welcome!</p>
-      </header>
-      <main>
-        <section>
-          <h2>About Me</h2>
-          <p>I'm an undergraduate student at UCSD majoring in Cognitive Science with a Specialization in Design and Interaction 
-            and minoring in Speculative Design. I am really interested in Design and Media!</p>
-        </section>
-        <section>
-          <h2>Projects</h2>
-          <ul>
-            <li>COGS125</li>
-            <li>DSGN118</li>
-            <li>DSGN100</li>
-          </ul>
-        </section>
-        <section>
-          <h2>Contact</h2>
-          <p>Reach out via email: h7cheng@ucsd.edu</p>
-        </section>
-      </main>
-      <footer>
-        <p>Thank you for visiting my portfolio!</p>
-      </footer>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <Nav />
+          <h1>Nicole Cheng's Portfolio</h1>
+          <p>Welcome!</p>
+        </header>
+        <main>
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:id" element={<Projects />} /> {/* This line */}
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <footer>
+          <p>Thank you for visiting my portfolio!</p>
+        </footer>
+      </div>
+    </Router>
   );
 }
 
-export default App; 
+export default App;
