@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import Nav from './Nav';
-import Projects from './Projects';
-import Contact from './Contact';
 
 function App() {
   return (
