@@ -4,7 +4,8 @@ function Contact() {
   return (
     <div>
       <h2>Contact Page</h2>
-      <p>Information about how to contact you goes here.</p>
+      <p>email: h7cheng@ucsd.edu</p>
+      <p>phone number</p>
     </div>
   );
 }
