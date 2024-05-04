@@ -1,7 +1,9 @@
+// App.js
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Nav from './Nav';
 import { motion } from 'framer-motion';
+import FlashCardStack from './FlashCardStack';
 import image1 from './assets/image1.jpg';
 import image2 from './assets/image2.jpg';
 
@@ -54,15 +56,10 @@ function App() {
         </div>
       </header>
       <main>
-        {/* Main content */}
+        <FlashCardStack />
       </main>
       <footer>
-        <p>
-          I am an undergraduate student at UCSD, majoring in Cognitive Science
-          with a specialization in Design and Interaction, minoring in Speculative
-          Design. I am interested in the field of Design and Media.
-          Thank you for visiting my portfolio!
-        </p>
+        {/* Footer content */}
       </footer>
     </div>
   );
