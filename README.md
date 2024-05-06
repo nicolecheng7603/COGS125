@@ -1,4 +1,4 @@
-##This is my COGS125 assignment where I create a portfilio page using react! 
+## This is my COGS125 assignment where I create a portfilio page using react
 
 
 

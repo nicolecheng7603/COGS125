@@ -6,7 +6,9 @@ import FlashCardStack from './FlashCardStack';
 import image1 from './assets/image1.jpg';
 import image2 from './assets/image2.jpg';
 import image5 from './assets/image5.jpg'
-import { HashRouter as Router } from 'react-router-dom';
+// import { HashRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
+
 
 function App() {
   const [showMessage, setShowMessage] = useState(false);
