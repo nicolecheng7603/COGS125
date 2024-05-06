@@ -67,7 +67,6 @@ function App() {
         <FlashCardStack />
       </main>
       <footer>
-        {/* Footer content */}
       </footer>
     </div>
   );
