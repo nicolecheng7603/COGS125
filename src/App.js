@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import FlashCardStack from './FlashCardStack';
 import image1 from './assets/image1.jpg';
 import image2 from './assets/image2.jpg';
+import image5 from './assets/image5.jpg'
 
 function App() {
   const [showMessage, setShowMessage] = useState(false);
@@ -47,6 +48,14 @@ function App() {
           <motion.img
             src={image2}
             alt="Image 2"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: showMessage ? 1 : 0 }}
+            transition={{ duration: 0.8 }}
+            style={{ width: '300px', height: 'auto', border: '1px solid #f9f7f7', borderRadius: '8px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }}
+          />
+          <motion.img
+            src={image5}
+            alt="Image 5"
             initial={{ opacity: 0 }}
             animate={{ opacity: showMessage ? 1 : 0 }}
             transition={{ duration: 0.8 }}
