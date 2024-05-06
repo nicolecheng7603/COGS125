@@ -56,8 +56,7 @@ function Projects() {
           distractions.
 
           </p>
-          <a href= "https://www.figma.com/proto/AavEwWmcu5yrCr5sVCyiq2/dsgn118?node-id=172-27&starting-
-          point-node-id=172%3A27&mode=design&t=VcYDkzcMCXXRDxpW-1" target="_blank" rel="noopener noreferrer"
+          <a href= "https://www.figma.com/proto/AavEwWmcu5yrCr5sVCyiq2/dsgn118?node-id=172-27&starting-point-node-id=172%3A27&mode=design&t=VcYDkzcMCXXRDxpW-1" target="_blank" rel="noopener noreferrer"
           >
             <button className="prototype-button">Clickable Prototype</button>
           </a>
