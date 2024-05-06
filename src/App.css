@@ -70,3 +70,40 @@ a {
   margin: 20px auto;
 }
 
+/* App.css */
+.contact-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #3f72af;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #35567d;
+}
+
