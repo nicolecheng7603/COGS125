@@ -5,7 +5,9 @@ import './FlashCardStack.css';
 
 const cards = [
   "I am an undergraduate student at UCSD, majoring in Cognitive Science with a specialization in Design and Interaction, minoring in Speculative Design. I am interested in the field of Design and Media. Thank you for visiting my portfolio!",
-  "I have experience with UI/UX, Graphic Design, 3D design, Python, React, and user research."
+  "I have experience with UI/UX, Graphic Design, 3D design, Python, React, and user research.",
+  "I am passionate in learning more about how AI can be incoorperate in traditional mediums to create innovative designs.",
+  "I love photography, it is my way to document moments of my life, and where I take inspiration from for my work."
 ];
 
 function FlashCardStack() {
