@@ -1,29 +1,31 @@
-/* FlashCardStack.css */
 .flash-card-stack {
-    position: relative;
-    width: 500px;
-    height: 200px;
-    margin: 0 auto;
-  }
-  
-  .flash-card {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    cursor: pointer;
-    user-select: none;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .top-card {
-    z-index: 10;
-  }
-  
+  position: relative;
+  width: 500px;
+  height: 250px; /* Increased the height for a bit more space */
+  margin: 0 auto;
+}
+
+.flash-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #e0f7fa; /* Light blue background */
+  border-radius: 15px; /* Increased border radius for softer edges */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Softer shadow for a modern look */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  font-size: 18px;
+  color: #333;
+}
+
+.top-card {
+  z-index: 10;
+  background: #b2ebf2; /* Slightly darker blue for the top card */
+}
