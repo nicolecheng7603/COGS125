@@ -4,6 +4,7 @@ import './App.css';
 import Nav from './Nav';
 import { motion } from 'framer-motion';
 import FlashCardStack from './FlashCardStack';
+import Root from './routes/root';
 import image1 from './assets/image1.jpg';
 import image2 from './assets/image2.jpg';
 import image5 from './assets/image5.jpg';
@@ -37,8 +38,12 @@ function App() {
         </header>
         <main>
           <Routes>
-            <Route path="/" element={<FlashCardStack />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/" element={<Root />}>
+              <Route index element={<FlashCardStack />} />
+              <Route path="projects" element={<div>Projects Page</div>} />
+              <Route path="contact" element={<div>Contact Page</div>} />
+              <Route path="*" element={<NotFound />} />
+            </Route>
           </Routes>
         </main>
         <footer>
