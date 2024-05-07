@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './Nav';
 import { motion } from 'framer-motion';
@@ -36,7 +36,10 @@ function App() {
           </div>
         </header>
         <main>
-          <FlashCardStack />
+          <Routes>
+            <Route path="/" element={<FlashCardStack />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </main>
         <footer>
           {/* Footer content */}
@@ -44,6 +47,10 @@ function App() {
       </div>
     </Router>
   );
+}
+
+function NotFound() {
+  return <div>Page not found. Please check the URL or go back to the homepage.</div>;
 }
 
 export default App;
