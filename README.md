@@ -1,6 +1,6 @@
 ## This is my COGS125 assignment where I create a portfilio page using react
-
-## BEEP
+## This is the link to a demo video of my portfolio from localhost: 
+## https://youtu.be/UXwVIkYaFQU
 
 # Getting Started with Create React App
 
